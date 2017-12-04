@@ -26,7 +26,7 @@ function createDialog() {
 
 	//phonegap supports native dialog boxes.
 	//here's a simple example
-
+ 	console.log("Dialog");
 	navigator.notification.confirm(
     	'What do you think of this dialog?',  // message
         dialogDismissed,         // callback
@@ -46,7 +46,7 @@ function dialogDismissed(buttonIndex) {
 
 
 function createNotification() {
-
+console.log("Notification");
 	//
     //generate a time to post notification
     //
