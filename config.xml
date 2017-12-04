@@ -18,6 +18,5 @@
     </author>
 
 	<plugin name="cordova-plugin-dialogs"/>
-  <plugin name="cordova-plugin-local-notification"/>
 
 </widget>
